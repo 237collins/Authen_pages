@@ -1,0 +1,127 @@
+body {
+  font-family: "poppins", sans-serif;
+  background-color: (180deg, #9d5b0a, #3c2209);
+}
+
+main {
+  display: flex;
+  /* flex-wrap: wrap; */
+  width: 900px;
+  height: 600px;
+  background-color: #f6b570;
+  border-radius: 30px;
+  position: fixed;
+  padding: 15px;
+  background: linear-gradient(180deg, #ffaa42, #ff912d);
+}
+
+.market {
+  display: flex;
+}
+
+.div-img {
+  /* position: fixed; */
+  margin-right: 20px;
+}
+.img-log {
+  border-radius: 20px;
+  box-shadow: 20px 0px 15px #e27713;
+}
+
+.back-H {
+}
+
+/* Formulaire */
+.div-log {
+  width: 350px;
+  height: 500px;
+  float: left;
+  padding-left: 20px;
+  padding: 40px;
+}
+
+p {
+  font-size: 0.8rem;
+  margin-top: 0;
+}
+#clic {
+  width: 15px;
+  height: 15px;
+  margin: 0;
+}
+.agree {
+  display: grid;
+  grid-template-columns: 1fr 20fr;
+  align-items: center;
+  /* margin-bottom: 15px; */
+  height: 40px;
+  width: 700px;
+  margin-bottom: 40px;
+}
+
+.agree p {
+  margin: 0;
+}
+
+input {
+  border-radius: 4px;
+  margin-bottom: 30px;
+  background-color: rgba(246, 181, 112, 0.5);
+  border: 1px solid #ffffff;
+}
+
+.log {
+  width: 325px;
+  height: 35px;
+  border: 1px solid #f4e0c7;
+  border-radius: 5px;
+}
+
+.name,
+.L-name {
+  padding: 7px;
+  /* width: 100px;
+  height: 15px; */
+}
+
+.mail,
+.pwd {
+  width: 312px;
+  padding: 7px;
+}
+
+.pwd {
+  margin-bottom: 0;
+}
+
+button {
+  width: 150px;
+  height: 30px;
+}
+
+button p {
+  margin: 0;
+  width: 50px;
+}
+.log-w {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-evenly;
+}
+
+.google,
+.apple {
+  display: flex;
+  align-content: center;
+}
+
+
+.line {
+    width: 320px;
+
+}
+.reg {
+  text-align: center;
+  width: 350px;
+}
