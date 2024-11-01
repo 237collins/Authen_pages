@@ -3,17 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="login.css" />
-    <title>Login page</title>
+    <link rel="stylesheet" href="Login.css" />
+    <title>Password Forgot page</title>
   </head>
 
   <body>
-    <main class="form">
-    
+    <main class="container">
+      <section class="form">
         <section class="div-img">
            
             <div class="back">
-                <img                src="../Login/pictures/Market_img.jpg"
+                <img                src="../Register/pictures/Market_img.jpg"
                 alt=""
                 width="450px"
                 height="600px"
@@ -24,46 +24,63 @@
             
         </section>
        
-    <form action="market"> </form>
-        <div class="div-log">
-          <h1>Create an account</h1>
-          <div>
-            <p>Already have an account ? <a href="#" class="connect">Login</a></p> 
+      <div class="div-form">
+        <form>
+          <div class="div-log">
+            <h1 class="h1-t">Welcome !</h1>
+            <div>
+              <p>You don't have an account ? <a href="../Register/register.html" class="connect">Register</a></p> 
+            
+              </div>
+              <!-- <input type="text" placeholder="Name" class="name"/>
+              <input type="text" placeholder="Last name" class="L-name"/> -->
+              <input type="text" placeholder="Email" class="mail"/>
+              <input type="password" placeholder="Enter your password" class="pwd"/>
           
+  
+            <div class="agree"> 
+              <input type="checkbox" id="clic" name="interest" value="clic" />
+              </label>
+              <label for="clic">
+                <p>I agree to the <a href="#">Terms & Conditions</a> </p>
+            </div>
+
+            <button type="submit" class="log"><b>Connect - Now</b></button>
+  
+            <div class="line">
+                
+                <div  class="reg">
+                  <p>Or login with</p>
+                </div>
+                  <hr width="100px"/>
+                  <hr width="100px" class="Left-line"/>
+                </div>
+  
+            <div class="log-w">
+      
+              <a href="www.googgle.com">
+                <button type="submit" > 
+                  <img
+                    src="../Register/pictures/Google.png"
+                    alt="" width="70px" height="20px" class="google"> </button>
+              </a> 
+  
+              <a href="apple.com">
+                <button type="submit"> 
+                  <img src="../Register/pictures/Apple.png" alt="" width="70px" height="20px" class="apple"/>
+  </button>
+              </a>
+            </div>
+  
+            <div class="forgot-pwd">
+              <a href="../Forgot/Forgot.html">Forgotten password ?</a>
+              <a href="../Reset/Reset.html" class="forg">Reset password ?</a>
+            </div>
+            
           </div>
-          <input type="text" placeholder="Name" class="name"/>
-          <input type="text" placeholder="Last name" class="L-name"/>
-            <input type="text" placeholder="Email" class="mail"/>
-            <input type="text" placeholder="Enter your password" class="pwd"/>
-        
-
-          <div class="agree"> 
-            <input type="checkbox" id="clic" name="interest" value="clic" />
-            </label>
-            <label for="clic">
-              <p>I agree to the <a href="#">Terms & Conditions</a> </p>
-
-          </div>
-          <button type="submit" class="log"><b>Create account</b></button>
-
-          <div class="line">
-            <hr /> <p class="reg">Or register with</p> <hr />
-          </div>
-
-          <div class="log-w">
-    
-            <button type="submit"> Google
-                <img
-                  src="../Login/pictures/icons8-logo-google-96.png"
-                  alt="" width="15px" height="15px" class="google"> </button> 
-
-            <button type="submit"> Apple
-                    <img src="../Login/pictures/icons8-mac-os-64.png" alt="" width="18px" height="18px" class="apple"/>
-</button>
-          </div>
-          
-        </div>
-      </form>
-    </section>
+        </form>
+      </div>
+      </section>
+    </main>
   </body>
 </html>

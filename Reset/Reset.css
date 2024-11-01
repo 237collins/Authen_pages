@@ -3,7 +3,6 @@ body {
   background-color: (180deg, #9d5b0a, #3c2209);
 }
 
-
 .container {
   display: flex;
   justify-content: center;
@@ -16,14 +15,14 @@ body {
   border-radius: 30px;
   scale: 1.005;
 }
+
 .form {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: #f6b570;
   border-radius: 30px;
   padding: 12px;
   background: linear-gradient(45deg, #fbadf9, #f9d8f7);
-
+  
 }
 
 /* Taille globale du formulaire */
@@ -33,7 +32,12 @@ body {
   width: 85%;
 }
 
-/* lien retouv a l'acceuil */
+
+.img-log {
+  border-radius: 20px;
+  box-shadow: 10px 0px 20px  #fabbf8;
+}
+
 .back-H {
   position: absolute;
   left: 320px;
@@ -52,42 +56,24 @@ transform: scale(1.1);
 transition: all .5s;
 }
 
-/* H1 title */
 
-.h1-t {
-  font-size: 3rem;
+/* Title page */
+
+.h1-1, .h1-2{
   margin-top: 0;
-  margin-bottom:10px;
-}
-
-
-
-.div-img {
-  
-  margin-right: -20px;
-  display: flex;
-}
-.img-log {
-  border-radius: 20px;
-  box-shadow: 10px 0px 20px  #fabbf8;
-}
-
-.back-H {
-    position: absolute;
-    left: 320px;
-    padding-top: 20px;
-    /* background-color: #Fb61f8; */
-    background: linear-gradient(45deg, #fbadf9, #f9d8f7);
-    padding: 10px;
-    border-radius: 10px;
-    margin-top: 25px;
-}
-
+ }
+ 
+ .h1-1 {
+   margin-bottom: -10px;
+   font-size: 3rem;
+ }
 
 a {
     font-size: 12px;
     color: black;
     text-decoration: none;
+    
+    
 }
 
 /* Formulaire */
@@ -98,9 +84,8 @@ a {
   height: 600px;
   align-items: center; 
   justify-items: center;
-  padding-left: 60px;
+  padding-left: 40px;
 }
-
 
 p {
   font-size: 0.8rem;
@@ -164,6 +149,7 @@ input {
 }
 
 .log {
+  margin-top: 30px;
   width: 325px;
   height: 35px;
   border: 1px solid rgba(250, 187, 248, .5);
